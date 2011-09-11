@@ -150,7 +150,7 @@
     (is (empty? remaining))))
 
 (deftest test-file-from-disk
-  (let [file-result (parse-ach-file "/home/kyle/Downloads/achfile.txt")
+  (let [file-result (parse-ach-file "achfile.txt")
         normal-result (parse-file '("101 101000048 1031125949504140050A094101FRB KANSAS CITY        RCB BANK CLAREMORE             "
                                      "5220ABC TEST COMPANYPAYROLL             9000000625PPDPAYROLL   041587870415   1103112590000001"
                                      "6220818100021326             0000025600245366         MICKEY THOMPSON       020103112590000001"
